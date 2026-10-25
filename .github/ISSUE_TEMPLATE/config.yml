@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Support and common questions
+    url: https://sweatql.github.io/sweatql-docs/support/
+    about: Answers to common questions, and how to get help.

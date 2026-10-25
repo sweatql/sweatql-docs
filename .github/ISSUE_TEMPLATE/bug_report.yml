@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in SweatQL doesn't work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public, so don't paste health data or screenshots with personal details.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Say what you did and what you saw.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The steps that lead to the problem, if you know them.
+  - type: input
+    id: app-version
+    attributes:
+      label: SweatQL version
+      description: Shown in the app's Settings.
+      placeholder: "1.0 (12)"
+  - type: input
+    id: iphone
+    attributes:
+      label: iPhone model and iOS version
+  - type: input
+    id: watch
+    attributes:
+      label: Apple Watch model and watchOS version
+      description: If the workout was recorded with an Apple Watch.
+  - type: checkboxes
+    id: no-personal-data
+    attributes:
+      label: Before you submit
+      options:
+        - label: This issue doesn't contain health data or personal details.
+          required: true

@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest something SweatQL could do.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public, so don't paste health data or screenshots with personal details.
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like SweatQL to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: Or how you would use it.
