@@ -1,6 +1,6 @@
 # SweatQL website
 
-This repository holds the published files of the SweatQL website, which is served at <https://sweatql.github.io/sweatql-docs/>.
+This repository holds the published files of the SweatQL website, which is served at <https://sweatql.com/>.
 
 The files are generated, so this repository doesn't take pull requests. Anything changed here is overwritten the next time the site is published.
 
